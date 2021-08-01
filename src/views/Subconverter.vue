@@ -4,9 +4,8 @@
       <el-col>
         <el-card style="margin-top:20px;max-width:800px;margin:auto;opacity:0.8;blackground-color:#0F4677;border-radius: 20px;">
           <div slot="header" style="blackground-color:#0F4677;text-align:center;font-size :25px !important;font-weight: bold !important;">
-            <svg-icon icon-class="lock" style="margin-left: 20px" title="完整魔改版:v1.2"/>
-            つつの订阅转换
-            <svg-icon icon-class="telegram" style="margin-left: 10px" title="加入Telegram吹水群" @click="gotoTgChannel" />
+            <svg-icon icon-class="lock" style="margin-left: 20px" title="你没见过的船新魔改版:v1.3.3"/>
+            Nekoha Shizukuの订阅转换
           </div>
           <el-container>
             <el-form :model="form" label-width="80px" label-position="left" style="width: 100%;">
@@ -254,28 +253,16 @@ export default {
           "自动判断客户端": "auto",
         },
         customBackend: {
-          "api.tsutsu.cc (つつ提供-香港CN2稳定)": "https://api.tsutsu.cc/sub?",
-          "api2.tsutsu.cc (つつ提供-香港CN2备用)": "https://api2.tsutsu.cc/sub?",
-          "api.v1.mk（肥羊提供-四端八核负载)": "https://api.v1.mk/sub?",
-          "subcon.dlj.tf (subconverter作者提供) ": "https://subcon.dlj.tf/sub?",
-          "api.dler.io (sub作者&lhie1提供)": "https://api.dler.io/sub?",
-          "api.wcc.best (sub-web作者提供)": "https://api.wcc.best/sub?",
-          "api.hope140.live (hope提供-vercel)": "https://api.hope140.live/sub?",
-          "sub.id9.cc (品云提供)": "https://sub.id9.cc/sub?",
+          "Heroku永不掉线": "https://subconventorgensokyo.102983.workers.dev/sub?",
+          "Heroku yyds": "https://subconventorenderheroku.102983.workers.dev/sub?",
         },
         backendOptions: [
-          { value: "https://api.tsutsu.cc/sub?" },
-          { value: "https://api2.tsutsu.cc/sub?" },
-          { value: "https://api.v1.mk/sub?" },
-          { value: "https://subcon.dlj.tf/sub?" },
-          { value: "https://api.dler.io/sub?" },
-          { value: "https://api.wcc.best/sub?" },
-          { value: "https://api.hope140.live/sub?" },
-          { value: "https://sub.id9.cc/sub?" },
+          { value: "https://subconventorgensokyo.102983.workers.dev/sub?" },
+          { value: "https://subconventorenderheroku.102983.workers.dev/sub?" },
         ],
         remoteConfig: [
           {
-            label: "つつ自用,投稿请tg找 @Ox208",
+            label: "Telegram: @Ox208",
             options: [
               {
                 label: "つつ自用-完整分组",
@@ -293,14 +280,14 @@ export default {
                   "https://cdn.staticaly.com/gh/lhl77/sub-ini/main/tsutsu-full-urltest-imm.ini"
               },
               {
-                label: "つつ自用-超jb精简分组(含国内分流)",
+                label: "つつ自用-超精简分组(含国内分流)",
                 value:
                   "https://cdn.staticaly.com/gh/lhl77/sub-ini/main/tsutsu-mini-gfw.ini"
               },
             ]
           },
           {
-            label: "用户投稿",
+            label: "Telegram Chat @tsutsu_group",
             options: [
               {
                 label: "hope140自用配置 (与Github同步)",
@@ -325,17 +312,17 @@ export default {
               {
                 label: "AllenXu精简版多国家",
                 value:
-                  "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/cdn_multicountry.ini"
+                  "https://gitproxy.102983.workers.dev/hyt-allen-xu/webcdn/master/cdn_multicountry.ini"
               },
               {
                 label: "AllenXu小机场专用",
                 value:
-                  "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/smallairport.ini"
+                  "https://gitproxy.102983.workers.dev/hyt-allen-xu/webcdn/master/smallairport.ini"
               },
             ]
           },
           {
-            label: "ACL4SSR",
+            label: "Github: @ACL4SSR",
             options: [
               {
                 label: "ACL4SSR默认",
@@ -398,7 +385,7 @@ export default {
             label: "特殊",
             options: [
               {
-                label: "基础无规则",
+                label: "什么都没有",
                 value:
                   "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/special/basic.ini"
               }
@@ -475,7 +462,7 @@ export default {
   },
   created() {
     // document.title = "Subscription Converter";
-    document.title = "つつの订阅转换 ";
+    document.title = "Nekoha Shizukuの船新订阅转换 ";
      this.isPC = this.$getOS().isPc;
 
     // 获取 url cache
@@ -485,7 +472,7 @@ export default {
   },
   mounted() {
     this.form.clientType = "clash";
-    this.form.customBackend = "https://api.tsutsu.cc/sub?";
+    this.form.customBackend = "https://subconventorgensokyo.102983.workers.dev/sub?";
     this.form.remoteConfig = "https://cdn.staticaly.com/gh/lhl77/sub-ini/main/tsutsu-full.ini";
     //this.getBackendVersion();
   },
@@ -495,9 +482,6 @@ export default {
     },
     goToProject() {
       window.open(project);
-    },
-	gotoTgChannel() {
-      window.open(tgBotLink);
     },
     gotoGayhub() {
       window.open(gayhubRelease);
@@ -549,7 +533,7 @@ export default {
 
       // 薯条屏蔽
       if (sourceSub.indexOf("losadhwse") !== -1 && (backend.indexOf("py6.pw") !== -1 || backend.indexOf("subconverter-web.now.sh") !== -1 || backend.indexOf("subconverter.herokuapp.com") !== -1 || backend.indexOf("api.wcc.best") !== -1)) {
-        this.$alert('此机场订阅已将该后端屏蔽，请自建后端转换。', '转换错误提示', {
+        this.$alert('此机场订阅已将该后端屏蔽，请自建Subconventor转换。', '转换错误提示', {
           confirmButtonText: '确定',
           callback: action => {
             this.$message({
