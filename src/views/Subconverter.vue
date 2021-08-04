@@ -5,7 +5,7 @@
         <el-card style="margin-top:20px;max-width:800px;margin:auto;opacity:0.8;blackground-color:#0F4677;border-radius: 20px;">
           <div slot="header" style="blackground-color:#0F4677;text-align:center;font-size :25px !important;font-weight: bold !important;">
             <svg-icon icon-class="lock" style="margin-left: 20px" title="你没见过的船新魔改版:v1.3.3"/>
-            Nekoha Shizukuの订阅转换
+            Nekoha Shizukuの订阅转换（<a href="https://theme.sub.tsutsu.cc/">主题商店点此进入</a>）
           </div>
           <el-container>
             <el-form :model="form" label-width="80px" label-position="left" style="width: 100%;">
