@@ -255,10 +255,12 @@ export default {
         customBackend: {
           "Heroku永不掉线": "https://subconventorgensokyo.102983.workers.dev/sub?",
           "Heroku yyds": "https://subconventorenderheroku.102983.workers.dev/sub?",
+          "Okteto船新版本":"https://subconvertoroktetogensokyo.102983.workers.dev/sub?"
         },
         backendOptions: [
           { value: "https://subconventorgensokyo.102983.workers.dev/sub?" },
           { value: "https://subconventorenderheroku.102983.workers.dev/sub?" },
+          { value: ""https://subconvertoroktetogensokyo.102983.workers.dev/sub?"},
         ],
         remoteConfig: [
           {
