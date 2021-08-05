@@ -260,7 +260,7 @@ export default {
         backendOptions: [
           { value: "https://subconventorgensokyo.102983.workers.dev/sub?" },
           { value: "https://subconventorenderheroku.102983.workers.dev/sub?" },
-          { value: ""https://subconvertoroktetogensokyo.102983.workers.dev/sub?"},
+          { value: "https://subconvertoroktetogensokyo.102983.workers.dev/sub?"},
         ],
         remoteConfig: [
           {
