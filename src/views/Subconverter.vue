@@ -426,6 +426,11 @@ export default {
                 label: "什么都没有",
                 value:
                   "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/special/basic.ini"
+              },
+              {
+                label: "Creeper?",
+                value:
+                  "https://gitproxy.102983.workers.dev/greatFireWallTechnology/Subweb-Gitpages/main/creeper.ini"
               }
             ]
           }
