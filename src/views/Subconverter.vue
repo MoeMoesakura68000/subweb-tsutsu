@@ -433,7 +433,7 @@ export default {
                 label: "Creeper?（load-balance·爬虫用）",
                 value:
                   "https://gitproxy.102983.workers.dev/greatFireWallTechnology/Subweb-Gitpages/main/creeper.ini"
-              }
+              },
             ]
           }
         ]
