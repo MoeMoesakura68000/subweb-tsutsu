@@ -420,7 +420,7 @@ export default {
                   "https://cdn.staticaly.com/gh/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_Netflix.ini"
               }
        
-          }
+          },
           {
             label: "特殊",
             options: [
@@ -430,7 +430,7 @@ export default {
                   "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/special/basic.ini"
               },
               {
-                label: "Creeper?(load-balance,爬虫用)",
+                label: "Creeper?（load-balance·爬虫用）",
                 value:
                   "https://gitproxy.102983.workers.dev/greatFireWallTechnology/Subweb-Gitpages/main/creeper.ini"
               }
