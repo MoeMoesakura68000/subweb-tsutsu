@@ -418,21 +418,22 @@ export default {
                 label: "ACL4SSR全分组重度用户",
                 value:
                   "https://cdn.staticaly.com/gh/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_Netflix.ini"
-              },
-           ],
-          [
+              }
+            ]
+          },
+          {
             label: "特殊",
             options: [
               {
-                label: "一张白纸",
+                label: "白纸",
                 value:
                   "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/special/basic.ini"
               },
               {
-                label: "Creeper?（load-balance·爬虫用）",
+                label: "Creeper?（Load-Balance·爬虫）",
                 value:
                   "https://gitproxy.102983.workers.dev/greatFireWallTechnology/Subweb-Gitpages/main/creeper.ini"
-              },
+              }
             ]
           }
         ]
