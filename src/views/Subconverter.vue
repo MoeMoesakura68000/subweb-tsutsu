@@ -289,9 +289,9 @@ export default {
           "自动判断客户端": "auto",
         },
         customBackend: {
-          "AWS永远滴神": "https://sub-back.littleneko.cf/sub?",
+          "Amazon aws永远滴神": "https://sub-back.littleneko.cf/sub?",
           "Heroku yyds": "https://subconventorheroku0192.102983.workers.dev/sub?",
-          "Okteto船新版本":"https://subconvertoroktetogensokyo.102983.workers.dev/sub?"
+          "Okteto船新版本":"https://subconvertoroktetogensokyo.102983.workers.dev/sub?",
           "Heroku永不掉线": "https://subconventorgensokyo.102983.workers.dev/sub?",
         },
         backendOptions: [
