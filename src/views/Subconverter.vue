@@ -289,11 +289,13 @@ export default {
           "自动判断客户端": "auto",
         },
         customBackend: {
-          "Heroku永不掉线": "https://subconventorgensokyo.102983.workers.dev/sub?",
+          "AWS永远滴神": "https://sub-back.littleneko.cf/sub?",
           "Heroku yyds": "https://subconventorheroku0192.102983.workers.dev/sub?",
           "Okteto船新版本":"https://subconvertoroktetogensokyo.102983.workers.dev/sub?"
+          "Heroku永不掉线": "https://subconventorgensokyo.102983.workers.dev/sub?",
         },
         backendOptions: [
+          { value: "https://sub-back.littleneko.cf/sub?" },
           { value: "https://subconventorgensokyo.102983.workers.dev/sub?" },
           { value: "https://subconventorheroku0192.102983.workers.dev/sub?" },
           { value: "https://subconvertoroktetogensokyo.102983.workers.dev/sub?"},
