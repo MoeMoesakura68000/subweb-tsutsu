@@ -292,7 +292,7 @@ export default {
           "Heroku yyds": "https://subconventorheroku0192.102983.workers.dev/sub?",
           "Okteto船新版本":"https://subconvertoroktetogensokyo.102983.workers.dev/sub?",
           "Heroku永不掉线": "https://subconventorgensokyo.102983.workers.dev/sub?",
-          "Amazon aws永远滴神": "https://sub-back.littleneko.cf/sub?",
+          "Amazon aws永远滴神 (Telegram Chat @akkcloud)": "https://sub-back.littleneko.cf/sub?",
         },
         backendOptions: [
           { value: "https://subconventorgensokyo.102983.workers.dev/sub?" },
@@ -419,18 +419,18 @@ export default {
                 value:
                   "https://cdn.staticaly.com/gh/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_Netflix.ini"
               }
-            ]
+       
           },
           {
             label: "特殊",
             options: [
               {
-                label: "什么都没有",
+                label: "一张白纸",
                 value:
                   "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/special/basic.ini"
               },
               {
-                label: "Creeper?",
+                label: "Creeper?(load-balance,爬虫用)",
                 value:
                   "https://gitproxy.102983.workers.dev/greatFireWallTechnology/Subweb-Gitpages/main/creeper.ini"
               }
@@ -517,13 +517,13 @@ export default {
   },
   mounted() {
     this.form.clientType = "clash";
-    this.form.customBackend = "https://subconventorgensokyo.102983.workers.dev/sub?";
-    this.form.remoteConfig = "https://cdn.staticaly.com/gh/lhl77/sub-ini/main/tsutsu-full.ini";
+    this.form.customBackend = "https://sub-back.littleneko.cf/sub?";
+    this.form.remoteConfig = "https://cdn.staticaly.com/gh/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_AdblockPlus.ini";
     //this.getBackendVersion();
   },
   methods: {
     onCopy() {
-      this.$message.success("Copied!");
+      this.$message.success("已复制");
     },
     goToProject() {
       window.open(project);
