@@ -419,7 +419,7 @@ export default {
                 value:
                   "https://cdn.staticaly.com/gh/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_Netflix.ini"
               },
-           }
+           },
           [
             label: "特殊",
             options: [
