@@ -290,14 +290,12 @@ export default {
         },
         customBackend: {
           "Heroku yyds": "https://subconventorheroku0192.102983.workers.dev/sub?",
-          "Okteto船新版本":"https://subconvertoroktetogensokyo.102983.workers.dev/sub?",
           "Heroku永不掉线": "https://subconventorgensokyo.102983.workers.dev/sub?",
           "Amazon aws永远滴神 (Telegram Chat @akkcloud)": "https://sub-back.littleneko.cf/sub?",
         },
         backendOptions: [
           { value: "https://subconventorgensokyo.102983.workers.dev/sub?" },
           { value: "https://subconventorheroku0192.102983.workers.dev/sub?" },
-          { value: "https://subconvertoroktetogensokyo.102983.workers.dev/sub?"},
           { value: "https://sub-back.littleneko.cf/sub?" },
         ],
         remoteConfig: [
